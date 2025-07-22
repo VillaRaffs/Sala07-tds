@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    background-color: rgb(214, 73, 127);
+    color:rgb(255, 171, 224);
+    border: none;
+    padding: 10px 40px;
+    border-radius: 999px;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 3px solid rgb(214, 73, 127);
+    cursor: pointer;
+
+}
