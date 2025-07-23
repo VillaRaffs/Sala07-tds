@@ -27,8 +27,20 @@ function divisao(){
     var numero7 = parseFloat(document.getElementById("n7").value)
     var numero8 = parseFloat(document.getElementById("n8").value)
     var resp = document.getElementById("respostadivisao")
-  if(numero10!== 0){
+  if(numero8 !== 0){
     resp.textContent= numero7 / numero8
   }else{
     resp.textContent = numero7 / numero8
+}
+}
+
+function media(){
+  var numero9 = parseFloat(document.getElementById("n9").value)
+    var numero10 = parseFloat(document.getElementById("n10").value)
+    var numero11 = parseFloat(document.getElementById("n11").value)
+    var numero12 = parseFloat(document.getElementById("n12").value)
+    var numero13 = parseFloat(document.getElementById("n13").value)
+    console.log(numero9, numero10, numero11, numero12, numero13)
+    var resp = document.getElementById("respostamedia")
+    resp.textContent = (numero9 + numero10 + numero11 + numero12 + numero13) / 5
 }
