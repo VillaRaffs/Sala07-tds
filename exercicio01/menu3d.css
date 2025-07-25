@@ -1,0 +1,38 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform translate (50%, -50%)
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+ul li a i{
+    font-size: 30px;
+    color: #333;
+    line-height: 80px;
+    transition: 0.5s;
+    padding-right: 20px;
+    padding-top: 22px;
+}
+
+ul li a span{
+    position: absolute;
+    top: 30px;
+    color: #333;
+    letter-spacing: 4px;
+    transition: 0.5s;   
+}
