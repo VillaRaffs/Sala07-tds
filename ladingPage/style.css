@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color:#ddd;
+    height: 80px;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+    gap: 20px;
+    background-color:#ddd;
+    height: 5px;
+    opacity: 0.6;
+}
+
+nav a:hover{
+    opacity: 1;
+}
+
+#s1{
+    min-height: 100vh;
+    padding-top: 80px;
+    background-color:pink ;
+}
+#s2{
+    min-height: 100vh;
+    padding-top: 80px;
+    background-color: red;
+}
+#s3{
+    min-height: 100vh;
+    padding-top: 80px;
+    background-color: orangered;
+}
+#s4{
+    min-height: 100vh;
+    padding-top: 80px;
+    background-color: yellow;
+}
