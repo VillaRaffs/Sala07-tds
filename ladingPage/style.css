@@ -36,7 +36,9 @@ nav a:hover{
 #s1{
     min-height: 100vh;
     padding-top: 80px;
-    background-color:pink ;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 #s2{
     min-height: 100vh;
