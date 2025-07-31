@@ -97,13 +97,56 @@ nav a:hover{
 
 #s3 {
     min-height:  100vh;
-    background-color: #40e5e0;
+    background-color: #ff6fa1;
     padding-top: 80px;
 
 }
 
 #s4 {
     min-height:  100vh;
-    background-color: #283ea8;
+    background-color: #fd89b0;
     padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.formulario{
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 20px;
+    color: #ddd;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 10px;
+}
+
+.formulario label{
+   margin-bottom: -6px;
+}
+
+.formulario input{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color:#fff;
+}
+
+.formulario button{
+padding: 10px;
+border-radius: 8px;
+opacity: 0.8;
+}
+
+.formulario button:hover{
+    cursor: pointer;
+    opacity: 0.8;
 }
