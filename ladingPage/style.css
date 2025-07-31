@@ -35,7 +35,7 @@ nav a:hover{
 
 #s1 {
     min-height: 100vh;
-    background-color: #005380;
+    background-color: #ea8fbb;
     padding-top: 80px;
     display: flex;
     align-items: center;
@@ -90,9 +90,51 @@ nav a:hover{
 
 #s2 {
     min-height:  100vh;
-    background-color: #ec6464;
-    padding-top: 80px;
+    background: url("./images/kuromi2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.wrap-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+   background-color: #dddddddd;
+   width: 300px;
+   height: 320px;
+   border-radius: 20px;
+   box-shadow: rgba(236, 75, 150, 0.648) 0px 5px 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 20px;
+   gap: 10px;
+   text-align: center;
+}
+
+.card:hover{
+    background-color: #dddddddd;
+    box-shadow: #ffffff7c 0px 5px 100px; ;
+    cursor: crosshair;
+}
+
+.card img{
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
 }
 
 #s3 {
@@ -104,7 +146,7 @@ nav a:hover{
 
 #s4 {
     min-height:  100vh;
-    background-color: #fd89b0;
+    background-color: #e95989;
     padding-top: 80px;
     display: flex;
     flex-direction: column;
@@ -141,12 +183,34 @@ nav a:hover{
 }
 
 .formulario button{
-padding: 10px;
-border-radius: 8px;
-opacity: 0.8;
+ padding: 10px;
+ border-radius: 8px;
+ opacity: 0.8;
 }
 
 .formulario button:hover{
     cursor: pointer;
     opacity: 0.8;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+}
+
+footer img{
+    transition: all 200ms ease-in-out;
+}
+
+footer img:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px;
 }
