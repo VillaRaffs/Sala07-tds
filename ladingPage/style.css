@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
+/* nav{
     position: fixed;
     top: 0;
     background-color: #ddd;
@@ -18,7 +18,7 @@ nav{
     gap: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
+ */
 nav a{
     display: flex;
     align-items: center;
@@ -27,6 +27,9 @@ nav a{
     text-decoration: none;
     color: inherit;
     opacity: 0.6;
+}
+nav{
+    text-align: center;
 }
 
 nav a:hover{
@@ -110,7 +113,7 @@ nav a:hover{
     flex-wrap: wrap;
 }
 
-.card{
+.cardnosso{
    background-color: #dddddddd;
    width: 300px;
    height: 320px;
@@ -125,28 +128,40 @@ nav a:hover{
    text-align: center;
 }
 
-.card:hover{
+.cardnosso:hover{
     background-color: #dddddddd;
     box-shadow: #ffffff7c 0px 5px 100px; ;
     cursor: crosshair;
 }
 
-.card img{
+.cardnosso img{
     border-radius: 15px;
     background-color: rgb(255, 255, 255);
     padding: 20px;
 }
 
 #s3 {
-    min-height:  100vh;
-    background-color: #ff6fa1;
-    padding-top: 80px;
-
+    min-height: 100vh;
+    background-color:#ea6692;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.wrap-video{
+    width: 800px;
+    height: 500px;
+}
+
+.vd{
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.664) 0px 50px 100px -20px, rgba(110, 120, 231, 0.678) 0px 30px 60px -30px, rgba(15, 68, 121, 0.751) 0px -2px 6px 0px inset;
+}
+
 
 #s4 {
     min-height:  100vh;
-    background-color: #e95989;
+    background-color: #d24574;
     padding-top: 80px;
     display: flex;
     flex-direction: column;
